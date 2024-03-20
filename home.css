@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: black;
+    margin-top: 75px;
+    text-align: center; 
+}
+
+.navbar {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    position: relative;
+    isolation: isolate;
+    text-align: center; 
+}
+
+nav {
+    position:relative;
+    margin-top: 20px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%; 
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    margin: 10px auto; 
+    gap: 2rem; 
+}
+
+.navlinks li {
+    display: inline-block;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+
+table {
+    margin: 20px auto; 
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 75%; 
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+th, td {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center; 
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+/* td{
+    border-radius: 15px;
+} */
+
+table tr:hover td {
+    background-color: darkgrey;
+}
+
+.crud-buttons {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.crud-buttons a, .crud-buttons button {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.crud-buttons a:hover, .crud-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.crea a{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px 10px;
+    justify-items: right;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    margin: 5px auto;
+    margin-left: 1100px;
+}
+
+p{
+    text-align: center;
+    margin-top: 250px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    text-align: center;
+    font-size: large;
+}
